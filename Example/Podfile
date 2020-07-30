@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WKLib-core_Example' do
+  pod 'WKLib-core', :path => '../'
+
+  target 'WKLib-core_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
