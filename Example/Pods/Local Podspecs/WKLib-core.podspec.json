@@ -1,0 +1,22 @@
+{
+  "name": "WKLib-core",
+  "version": "0.1.0",
+  "summary": "A short description of WKLib-core.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/2503966178@qq.com/WKLib-core",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "2503966178@qq.com": "2820843854@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/2503966178@qq.com/WKLib-core.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WKLib-core/Classes/**/*"
+}

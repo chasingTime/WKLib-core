@@ -1,0 +1,16 @@
+PODS:
+  - WKLib-core (0.1.0)
+
+DEPENDENCIES:
+  - WKLib-core (from `../`)
+
+EXTERNAL SOURCES:
+  WKLib-core:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WKLib-core: 6486863c3a0de3a4f4c0a7e919ba88446641b88c
+
+PODFILE CHECKSUM: 2e150a29250154c0db88a361ec3725f6c8b79fcb
+
+COCOAPODS: 1.9.1

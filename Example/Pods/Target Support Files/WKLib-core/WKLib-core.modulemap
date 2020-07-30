@@ -1,0 +1,6 @@
+framework module WKLib_core {
+  umbrella header "WKLib-core-umbrella.h"
+
+  export *
+  module * { export * }
+}
