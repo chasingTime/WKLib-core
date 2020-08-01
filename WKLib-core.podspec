@@ -26,8 +26,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'WKLib-core/Classes/**/*'
-  
+  #s.source_files = 'WKLib-core/Classes/**/*'
+  s.source_files = 'WKLib-core/Classes/Utils/network/*'
+  s.source_files = 'WKLib-core/Classes/Frame/WKTabbar/*'
   # s.resource_bundles = {
   #   'WKLib-core' => ['WKLib-core/Assets/*.png']
   # }
@@ -37,3 +38,4 @@ TODO: Add long description of the pod here.
   s.dependency 'AFNetworking', '~> 3.2.1'
   s.dependency 'YYCache'
 end
+

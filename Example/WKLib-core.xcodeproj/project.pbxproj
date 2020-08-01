@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		198235069A3C57434EBE0D09 /* WKLib-core.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "WKLib-core.podspec"; path = "../WKLib-core.podspec"; sourceTree = "<group>"; };
+		198235069A3C57434EBE0D09 /* WKLib-core.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "WKLib-core.podspec"; path = "../WKLib-core.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		38504CD6480543D4E7E5F8F8 /* Pods-WKLib-core_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKLib-core_Example.release.xcconfig"; path = "Target Support Files/Pods-WKLib-core_Example/Pods-WKLib-core_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3903704C1B8031A293CA8B76 /* Pods-WKLib-core_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKLib-core_Example.debug.xcconfig"; path = "Target Support Files/Pods-WKLib-core_Example/Pods-WKLib-core_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4805C7D613619F2D36908621 /* Pods-WKLib-core_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKLib-core_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WKLib-core_Tests/Pods-WKLib-core_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,9 +63,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C737115A5512552815D6FD9 /* Pods_WKLib_core_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKLib_core_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B559B43C39EF1BFFA4825158 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B559B43C39EF1BFFA4825158 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CADC01527F453E49EA9658A3 /* Pods-WKLib-core_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKLib-core_Tests.release.xcconfig"; path = "Target Support Files/Pods-WKLib-core_Tests/Pods-WKLib-core_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		ED12CB811D2FA2B4CFA0C69C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ED12CB811D2FA2B4CFA0C69C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FAB50A52A7F2E5D531DE1694 /* Pods_WKLib_core_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKLib_core_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				4805C7D613619F2D36908621 /* Pods-WKLib-core_Tests.debug.xcconfig */,
 				CADC01527F453E49EA9658A3 /* Pods-WKLib-core_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
