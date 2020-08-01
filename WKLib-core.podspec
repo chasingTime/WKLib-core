@@ -26,9 +26,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'WKLib-core/Classes/**/*'
+  s.source_files = 'WKLib-core/Classes/'
   
-  s.source_files 'Utils' do |ss|
+  s.subspec 'Utils' do |ss|
       ss.source_files = 'Utils/Network/*.{h,m}'
       end
   # s.resource_bundles = {
