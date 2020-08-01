@@ -29,6 +29,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'WKLib-core/Classes/**/*'
   s.subspec 'Utils' do |ss|
       ss.source_files = 'WKLib-core/Classes/Utils/Network/*.{h,m}'
+      end
   # s.resource_bundles = {
   #   'WKLib-core' => ['WKLib-core/Assets/*.png']
   # }
