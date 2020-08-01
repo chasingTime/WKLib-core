@@ -10,4 +10,6 @@ target 'WKLib-core_Example' do
 
     
   end
+  pod 'AFNetworking', '~> 3.2.1'
+  pod 'YYCache'
 end
