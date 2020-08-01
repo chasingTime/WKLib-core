@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - WKLib-core (0.1.1):
+  - WKLib-core (0.2.0):
     - AFNetworking (~> 3.2.1)
     - YYCache
   - YYCache (1.0.4)
@@ -35,7 +35,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  WKLib-core: 0d82b31cfaf8e9db6d6970fd82c33cfe273f6d34
+  WKLib-core: 166fd726a3f48826e9f6f44b81bd527b1891ba17
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
 PODFILE CHECKSUM: 84f060d60c5a288fb47e9353fe136647ac684a02
