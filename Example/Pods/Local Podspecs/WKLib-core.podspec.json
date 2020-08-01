@@ -1,9 +1,9 @@
 {
   "name": "WKLib-core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of WKLib-core.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/2503966178@qq.com/WKLib-core",
+  "homepage": "https://github.com/chasingTime/WKLib-core",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,19 @@
     "2503966178@qq.com": "2820843854@qq.com"
   },
   "source": {
-    "git": "https://github.com/2503966178@qq.com/WKLib-core.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/chasingTime/WKLib-core.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "WKLib-core/Classes/**/*"
+  "source_files": "WKLib-core/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.2.1"
+    ],
+    "YYCache": [
+
+    ]
+  }
 }
