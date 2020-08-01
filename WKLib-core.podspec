@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WKLib-core'
-  s.version          = '0.2.2'
+  s.version          = '0.2.3'
   s.summary          = 'A short description of WKLib-core.'
 
 
@@ -26,9 +26,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  #s.source_files = 'WKLib-core/Classes/**/*'
-  s.source_files = 'WKLib-core/Classes/Utils/network/*'
-  s.source_files = 'WKLib-core/Classes/Frame/WKTabbar/*'
+  s.source_files = 'WKLib-core/Classes/**/*'
+  s.subspec 'Utils' do |ss|
+      ss.source_files = 'WKLib-core/Classes/Utils/*.{h,m}'
   # s.resource_bundles = {
   #   'WKLib-core' => ['WKLib-core/Assets/*.png']
   # }
