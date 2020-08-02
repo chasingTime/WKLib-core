@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WKLib-core'
-  s.version          = '0.2.5'
+  s.version          = '0.2.6'
   s.summary          = 'A short description of WKLib-core.'
 
 
@@ -26,13 +26,17 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'WKLib-core/Classes/**/*'
+  #s.source_files = 'WKLib-core/Classes/**/*'
   
+  s.subspec 'Utils' do |ss|
+      #ss.public_header_files='**/Classes/Network/PPNetworkCache.h'
+      ss.source_files = '**/Classes/Utils/Category/*.{h,m}'
+      #    ss.source_files = '**/Classes/Utils/Network/PPNetworkHelper.{h,m}'
+  #    ss.public_header_files='**Classes/Utils/Network/PPNetworkHelper.h'
+  
+      end
   s.subspec 'Network' do |ss|
-      ss.source_files = 'Classes/Utils/Network/PPNetworkCache.{h,m}'
-      ss.source_files = 'Classes/Utils/Network/PPNetworkHelper.{h,m}'
-      ss.public_header_files='Classes/Utils/Network/PPNetworkHelper.h'
-      ss.public_header_files='Classes/Utils/Network/PPNetworkCache.h'
+      ss.source_files = '**/Classes/Network/Http/*.{h,m}'
       end
   
   # s.resource_bundles = {
