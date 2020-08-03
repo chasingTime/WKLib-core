@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
   
   s.subspec 'Utils' do |ss|
       #ss.public_header_files='**/Classes/Network/PPNetworkCache.h'
-      ss.source_files = '**/Classes/Utils/Category/*.{h,m}'
+      ss.source_files = '**/Classes/Utils/**/*.{h,m}'
       #    ss.source_files = '**/Classes/Utils/Network/PPNetworkHelper.{h,m}'
   #    ss.public_header_files='**Classes/Utils/Network/PPNetworkHelper.h'
   
       end
   s.subspec 'Network' do |ss|
-      ss.source_files = '**/Classes/Network/Http/*.{h,m}'
+      ss.source_files = '**/Classes/Network/**/*.{h,m}'
       end
   
   # s.resource_bundles = {
